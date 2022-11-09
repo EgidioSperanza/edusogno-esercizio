@@ -28,6 +28,7 @@ if(!isset($_SESSION['loggato']) || $_SESSION['loggato'] !== true){
                         foreach ($events as $event){
                             echo '<div class="event">';
                             echo '<h2>'.$event['nome_evento'].'</h2>';
+                            echo '<span class="date">'.$event['data_evento'].'</span>';
                             echo '<button type="button">JOIN</button>';
                             echo '</div>';
                         }

@@ -53,6 +53,14 @@ header{
 }
 
 /* START BACKGROUND */
+
+.big-circle, .small-circle{
+    position: absolute;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    z-index: 0;
+}
+
 .big-circle {
     width: 20vh;
     height: 0;
@@ -68,13 +76,6 @@ header{
     top: 444px;
 }
 
-.big-circle, .small-circle{
-    position: absolute;
-    background-color: #FFFFFF;
-    border-radius: 50%;
-    z-index: 0;
-}
-
 .vector1,.vector4, .vector5{
     position: absolute;
     width: 100%;
@@ -85,6 +86,42 @@ header{
 .vector5{
     bottom:5vh;
 }
+
+/* START ROCKET */
+
+.polygon1{
+    position: absolute;
+    right: 20vh;
+    bottom: 22vh;
+}
+.rectangle1{
+    position: absolute;
+    right: 20vh;
+    bottom: 12vh;
+}
+.vector2{
+    position: absolute;
+    right: 27vh;
+    bottom:10vh;
+}
+.vector3{
+    position: absolute;
+    right: 17.5vh;
+    bottom: 10vh;
+}
+.rectangle2{
+    position: absolute;
+    right: 23vh;
+    bottom: 9vh;
+}
+.ellipse11{
+    position: absolute;
+    right: 22vh;
+    bottom: 18vh;
+}
+
+/* END ROCKET */
+
 /* END BACKGROUND */
 
 /* START REGISTER */
@@ -194,6 +231,12 @@ form.account input {
     text-transform:uppercase; 
     font-size: 20px;
     color: #FFFFFF;
+}
+
+.date{
+    text-align: center;
+    font-size: 13;
+    color: #CCCCCC;
 }
 
 /* END PRIVATE*/
